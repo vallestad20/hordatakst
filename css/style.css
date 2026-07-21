@@ -975,11 +975,16 @@ ul {
   padding: 10px 14px;
   border-radius: var(--radius-sm);
   border: 0.5px solid var(--color-border-dark);
-  background-color: var(--color-primary-mid);
-  color: var(--color-text-on-dark);
+  background-color: #F2EDE4;
+  color: #2C1F14;
   outline: none;
   transition: border-color 0.15s ease;
   resize: vertical;
+}
+
+.contact-form-wrap input::placeholder,
+.contact-form-wrap textarea::placeholder {
+  color: #9E8B76;
 }
 
 .contact-form-wrap input:focus,
