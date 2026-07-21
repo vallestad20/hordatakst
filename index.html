@@ -242,22 +242,22 @@
           </ul>
         </div>
 
-        <!-- Kontaktskjema -->
-        <div class="contact-form-wrap">
-          <label for="navn">Navn</label>
-          <input type="text" id="navn" name="navn" placeholder="Ditt fulle navn" autocomplete="name"/>
+      <!-- Kontaktskjema -->
+              <form class="contact-form-wrap" action="https://formspree.io/f/xzdnvbld" method="POST">
+                <label for="navn">Navn</label>
+                <input type="text" id="navn" name="navn" placeholder="Ditt fulle navn" autocomplete="name" required/>
 
-          <label for="telefon">Telefon</label>
-          <input type="tel" id="telefon" name="telefon" placeholder="Ditt telefonnummer" autocomplete="tel"/>
+                <label for="telefon">Telefon</label>
+                <input type="tel" id="telefon" name="telefon" placeholder="Ditt telefonnummer" autocomplete="tel"/>
 
-          <label for="epost">E-post</label>
-          <input type="email" id="epost" name="epost" placeholder="Din e-postadresse" autocomplete="email"/>
+                <label for="epost">E-post</label>
+                <input type="email" id="epost" name="epost" placeholder="Din e-postadresse" autocomplete="email" required/>
 
-          <label for="melding">Melding</label>
-          <textarea id="melding" name="melding" rows="4" placeholder="Beskriv hva du ønsker hjelp til"></textarea>
+                <label for="melding">Melding</label>
+                <textarea id="melding" name="melding" rows="4" placeholder="Beskriv hva du ønsker hjelp til" required></textarea>
 
-          <button type="button" class="btn btn-primary">Send henvendelse</button>
-        </div>
+                <button type="submit" class="btn btn-primary">Send henvendelse</button>
+              </form>
 
       </div>
     </section>
