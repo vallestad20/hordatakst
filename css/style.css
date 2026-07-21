@@ -992,11 +992,6 @@ ul {
   border-color: var(--color-detail);
 }
 
-.contact-form-wrap input::placeholder,
-.contact-form-wrap textarea::placeholder {
-  color: var(--color-text-faint-dark);
-}
-
 .contact-form-wrap .btn {
   margin-top: 8px;
   align-self: flex-start;
