@@ -976,7 +976,7 @@ ul {
   border-radius: var(--radius-sm);
   border: 0.5px solid var(--color-border-dark);
   background-color: #F2EDE4;
-  color: #2C1F14;
+  color: #2C1F14 !important;
   outline: none;
   transition: border-color 0.15s ease;
   resize: vertical;
