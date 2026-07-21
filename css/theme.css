@@ -1,0 +1,63 @@
+/* ============================================================
+   theme.css — Fargetema for Hordatakst
+   Aktivt tema: Tema 2 — Varm stein
+   Bytt ut verdiene her for å endre hele sidens utseende.
+   ============================================================ */
+
+:root {
+  /* --- Primærfarger --- */
+  --color-primary:        #F2EDE4;   /* Lys varm bakgrunn / hero */
+  --color-primary-deep:   #E5DDD0;   /* Footer */
+  --color-primary-mid:    #E5DDD0;   /* Ikoner i hero */
+
+  --color-accent:         #B23A3A;
+  --color-accent-light:   #F8EAEA;
+  --color-accent-text:    #7E2626;
+  --color-detail:         #B23A3A;
+
+  /* --- Bakgrunn og flater --- */
+  --color-bg:             #FBF8F4;   /* Sidebunn */
+  --color-bg-card:        #FFFFFF;   /* Kort */
+  --color-bg-about:       #FFFFFF;   /* Om meg-seksjon */
+  --color-bg-contact:     #2C1F14;   /* Kontaktseksjon */
+  --color-bg-coverage:    #3D2B1A;   /* Dekningskort i kontakt */
+  --color-bg-coverage-tag:#2C1F14;   /* Tags i dekningskort */
+
+  /* --- Tekst --- */
+  --color-text-on-dark:   #F2EDE4;   /* Tekst på mørk bakgrunn */
+  --color-text-muted-dark:#A89078;   /* Dempet tekst på mørk bakgrunn */
+  --color-text-faint-dark:#7A6552;   /* Svært dempet på mørk */
+  --color-text-on-light:  #2C1F14;   /* Tekst på lys bakgrunn */
+  --color-text-muted:     #7A6552;   /* Dempet tekst på lys */
+  --color-text-faint:     #9E8B76;   /* Svært dempet på lys */
+  --color-text-link:      #9B4E1F;   /* Lenkefarger */
+  --color-text-coverage:  #A89078;   /* Tags i dekningskort */
+
+  /* --- Kanter --- */
+  --color-border:         #E5DDD0;   /* Generelle kanter */
+  --color-border-coverage:#4D3525;   /* Kanter i dekningskort */
+  --color-border-dark:    #C4A882;   /* Kanter på mørk (hero) bakgrunn */
+
+  /* --- Nav --- */
+  --color-nav-bg:         #F2EDE4;
+  --color-nav-link:       #7A6552;
+  --color-nav-link-hover: #2C1F14;
+
+  /* --- Coverage-bar (geografisk stripe) --- */
+  --color-coverage-bar-bg:    #EDE6DA;
+  --color-coverage-bar-border:#DDD9D0;
+  --color-coverage-icon:      #9B4E1F;
+  --color-coverage-text:      #7A6552;
+  --color-coverage-dot:       #9B4E1F;
+
+  /* --- Typografi --- */
+  --font-display:         'Playfair Display', Georgia, serif;
+  --font-body:            'Inter', system-ui, sans-serif;
+
+  /* --- Størrelser --- */
+  --radius-sm:    6px;
+  --radius-md:    8px;
+  --radius-lg:    12px;
+  --max-width:    1100px;
+  --section-gap:  72px;
+}
