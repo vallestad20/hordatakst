@@ -820,6 +820,11 @@ ul {
   background-color: var(--color-bg);
   border-top: none;
   border-bottom: none;
+  padding-block: 24px;
+}
+
+.services {
+  padding-top: 24px;
 }
 
 .about-snippet-inner {
