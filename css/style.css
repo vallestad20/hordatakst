@@ -1002,6 +1002,19 @@ ul {
   align-self: flex-start;
 }
 
+.contact-form-wrap select {
+  font-family: var(--font-body);
+  font-size: 14px;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  border: 0.5px solid var(--color-border-dark);
+  background-color: #F2EDE4;
+  color: #2C1F14;
+  outline: none;
+  transition: border-color 0.15s ease;
+  cursor: pointer;
+}
+
 /* Kontaktside (egen side) */
 .kontakt-inner {
   display: grid;

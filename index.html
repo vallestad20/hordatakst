@@ -241,23 +241,31 @@
             </li>
           </ul>
         </div>
+    <!-- Kontaktskjema -->
+          <form class="contact-form-wrap" action="https://formspree.io/f/xzdnvbld" method="POST">
+            <label for="navn">Navn</label>
+            <input type="text" id="navn" name="navn" placeholder="Ditt fulle navn" autocomplete="name" required/>
 
-      <!-- Kontaktskjema -->
-              <form class="contact-form-wrap" action="https://formspree.io/f/xzdnvbld" method="POST">
-                <label for="navn">Navn</label>
-                <input type="text" id="navn" name="navn" placeholder="Ditt fulle navn" autocomplete="name" required/>
+            <label for="telefon">Telefon</label>
+            <input type="tel" id="telefon" name="telefon" placeholder="Ditt telefonnummer" autocomplete="tel"/>
 
-                <label for="telefon">Telefon</label>
-                <input type="tel" id="telefon" name="telefon" placeholder="Ditt telefonnummer" autocomplete="tel"/>
+            <label for="epost">E-post</label>
+            <input type="email" id="epost" name="epost" placeholder="Din e-postadresse" autocomplete="email" required/>
 
-                <label for="epost">E-post</label>
-                <input type="email" id="epost" name="epost" placeholder="Din e-postadresse" autocomplete="email" required/>
+            <label for="tjeneste">Tjeneste</label>
+            <select id="tjeneste" name="tjeneste">
+              <option value="">Velg tjeneste</option>
+              <option value="verditakst">Verditakst</option>
+              <option value="tilstandsrapport">Tilstandsrapport</option>
+              <option value="forhandstakst">Forhåndstakst</option>
+              <option value="annet">Annet / usikker</option>
+            </select>
 
-                <label for="melding">Melding</label>
-                <textarea id="melding" name="melding" rows="4" placeholder="Beskriv hva du ønsker hjelp til" required></textarea>
+            <label for="melding">Melding</label>
+            <textarea id="melding" name="melding" rows="4" placeholder="Beskriv hva du ønsker hjelp til" required></textarea>
 
-                <button type="submit" class="btn btn-primary">Send henvendelse</button>
-              </form>
+            <button type="submit" class="btn btn-primary">Send henvendelse</button>
+          </form>
 
       </div>
     </section>
