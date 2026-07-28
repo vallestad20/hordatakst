@@ -1,6 +1,6 @@
 # Hordatakst
 
-Nettside for Hordatakst – Odd Vallestad AS, bygget som et porteføljeprosjekt 
+Nettside for Hordatakst – Odd Vallestad AS, bygget som et porteføljeprosjekt
 under bachelor i informasjonsvitenskap ved Universitetet i Bergen (UIB).
 
 ## Teknologi
@@ -11,6 +11,11 @@ under bachelor i informasjonsvitenskap ved Universitetet i Bergen (UIB).
 
 ## Funksjoner
 - Single-page navigasjon med ankerlenker
-- Kontaktskjema
-- Egen SVG-logo
+- Kontaktskjema koblet til Formspree
+- Egen SVG-logo laget fra bunnen av
 - Tilpasset fargepalett og typografi
+- Bilder fra Pixabay, Unsplash og Pexels
+- Publisert på GitHub Pages
+
+## Live
+[vallestad20.github.io/hordatakst](https://vallestad20.github.io/hordatakst)
